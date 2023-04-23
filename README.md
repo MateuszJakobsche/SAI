@@ -1,6 +1,8 @@
 # SAI
 A simple implementation of chatGPT, based on this [post](https://levelup.gitconnected.com/its-time-to-create-a-private-chatgpt-for-yourself-today-6503649e7bb6)
 
+![image](https://user-images.githubusercontent.com/92634489/233839154-1507b8ab-a67f-40c0-b985-5a93ea7e399f.png)
+
 Installation guide
 1)  install [Python](https://www.python.org/downloads/)
 2)  install [Pip](https://pip.pypa.io/en/stable/installation/)
