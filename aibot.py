@@ -2,6 +2,14 @@ import openai
 import streamlit as st
 from config import APIkey, USERname, SAIname, SAIidentity
 
+st.set_page_config(
+        page_title="SAI",
+        page_icon=":trident:",
+        menu_items={
+         'About': 'Github repo: https://github.com/MateuszJakobsche/SAI'
+     }
+    )
+
 #functions
 def initialize_session():
     if 'prompts' not in st.session_state:
