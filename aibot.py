@@ -37,7 +37,7 @@ def send_click():
 
 #configuration menu
 with st.sidebar:
-    openai.api_key = st.text_input("Your API key*", value=APIkey, type="password")
+    openai.api_key = st.text_input("Your API key*", value=APIkey, type="password", autocomplete=1)
     st.divider()
     userName = st.text_input("Your name", value=USERname) + ": "
     saiName = st.text_input("SAI's name", value=SAIname) + ": "
